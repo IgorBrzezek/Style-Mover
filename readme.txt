@@ -33,7 +33,7 @@ Usage
 The script is run from the command line.
 
 ```
-python style_mover_06.py -i <input_file> [options]
+python smover.py -i <input_file> [options]
 ```
 
 -----------
@@ -73,21 +73,21 @@ Examples
 
 1. Basic usage (creates `my_page_styled.html`):
    ```
-   python style_mover_06.py -i my_page.html
+   python smover.py -i my_page.html
    ```
 
 2. Specifying an output file and adjusting heading capitalization:
    ```
-   python style_mover_06.py -i input.html -o output.html --capitalic
+   python smover.py -i input.html -o output.html --capitalic
    ```
 
 3. Converting a specific class to a preformatted block and showing stats:
    ```
-   python style_mover_06.py -i document.html --ascii custom-code --stat
+   python smover.py -i document.html --ascii custom-code --stat
    ```
 
 4. Running in silent mode for an automated script:
    ```
-   python style_mover_06.py -i template.html -b
+   python smover.py -i template.html -b
    ```
    (If an error occurs, check for `smover.err`)
